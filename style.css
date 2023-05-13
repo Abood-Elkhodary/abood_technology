@@ -294,7 +294,7 @@ section{
     }
 
     .web-name{
-        font-size: 10px;
+        font-size: 8px;
     }
     
     .main-content h2{
@@ -308,7 +308,7 @@ section{
 
 @media (max-width:300px){
     body{
-        font-size: 10px;
+        font-size: 8px;
      
     }
 }
