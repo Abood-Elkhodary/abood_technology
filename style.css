@@ -241,6 +241,11 @@ section{
 .info a{
     text-decoration: none;
     font-size: 23px;
+    color: #fff;
+}
+
+.info a:hover{
+ color: blue;   
 }
 
 .footer{
