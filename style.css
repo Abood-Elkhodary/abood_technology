@@ -243,7 +243,6 @@ section{
     font-size: 23px;
     color: #fff;
 }
-
 .info a:hover{
  color: blue;   
 }
@@ -272,6 +271,7 @@ section{
         padding: 12px 20px;
     }
 
+
     .navigation a{
         padding-left: 10px;
     }
@@ -296,7 +296,9 @@ section{
         flex-direction: column;
         align-items: center;
     }
-
+    .info a{
+        font-size: 12px;
+    }
 }
 
 @media (max-width:641px){
@@ -306,6 +308,7 @@ section{
 
     .web-name{
         font-size: 8px;
+        text-align: center;
     }
     
     .main-content h2{
@@ -314,6 +317,9 @@ section{
 
     .main-content h3{
         font-size: 1.4em;
+    }
+    .info a{
+        font-size: 12px;
     }
 }
 
@@ -326,5 +332,8 @@ section{
     body{
         font-size: 8px;
      
+    }
+    .info a{
+        font-size: 10px;
     }
 }
