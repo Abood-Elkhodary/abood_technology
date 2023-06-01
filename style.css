@@ -227,6 +227,7 @@ section{
 
 .cards-contact{
     background-color: #222222;
+    text-align: center;
 }
 
 .cards-contact .icon{
@@ -235,6 +236,11 @@ section{
 
 .cards-contact .info h3 {
     color: #00c853;
+}
+
+.info a{
+    text-decoration: none;
+    font-size: 23px;
 }
 
 .footer{
@@ -254,7 +260,7 @@ section{
 }
 .br{
     background-color: #222222;
-}
+    }
 
 @media (max-width:1023px){
     header{
@@ -307,6 +313,11 @@ section{
 }
 
 @media (max-width:300px){
+    
+    .web-name {
+    text-align: center;
+    font-size: 8px;
+    }
     body{
         font-size: 8px;
      
